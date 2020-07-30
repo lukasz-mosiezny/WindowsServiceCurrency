@@ -1,0 +1,13 @@
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\WindowsServiceWaluta.exe.config
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\WindowsServiceWaluta.exe
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\WindowsServiceWaluta.pdb
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csprojAssemblyReference.cache
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.MyNewService.resources
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.ProjectInstaller.resources
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.GenerateResource.cache
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.CoreCompileInputs.cache
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.exe
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.pdb
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\Newtonsoft.Json.dll
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\Newtonsoft.Json.xml
+D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.CopyComplete
