@@ -70,7 +70,7 @@ namespace WindowsServiceWaluta
                     var tmp = JObject.Parse(json);
                     //rates -> PLN -> Value
                     // Get first(only) value.
-                    var value = tmp.Properties().First().First().FirstOrDefault();
+                    float value = (float)tmp.Properties().First().First().FirstOrDefault();
 
                     eventLog1.WriteEntry("EUR/" + currency + " rate: " + value.ToString(), EventLogEntryType.Information, eventID++);
                 }
