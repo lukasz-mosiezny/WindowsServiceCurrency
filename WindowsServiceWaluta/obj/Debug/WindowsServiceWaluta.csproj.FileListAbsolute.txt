@@ -11,3 +11,16 @@ D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWa
 D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\Newtonsoft.Json.dll
 D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\bin\Debug\Newtonsoft.Json.xml
 D:\Programy\WindowsServiceWaluta\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.CopyComplete
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\bin\Debug\WindowsServiceWaluta.exe.config
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\bin\Debug\WindowsServiceWaluta.exe
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\bin\Debug\WindowsServiceWaluta.pdb
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csprojAssemblyReference.cache
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.MyNewService.resources
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.ProjectInstaller.resources
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.GenerateResource.cache
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.CoreCompileInputs.cache
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.csproj.CopyComplete
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.exe
+D:\GitHub\WindowsServiceCurrency\WindowsServiceWaluta\obj\Debug\WindowsServiceWaluta.pdb

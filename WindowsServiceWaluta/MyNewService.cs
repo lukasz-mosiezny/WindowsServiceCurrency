@@ -18,6 +18,8 @@ namespace WindowsServiceWaluta
     public partial class MyNewService : ServiceBase
     {
         private int eventID = 1;
+        private Timer oneHourTimer = new Timer();
+
         public MyNewService()
         {
             InitializeComponent();
@@ -28,24 +30,19 @@ namespace WindowsServiceWaluta
             }
             eventLog1.Source = "MySourceC";
             eventLog1.Log = "CurrencyLog";
+            
+            oneHourTimer.Interval = 3600000;
+            oneHourTimer.Elapsed += new ElapsedEventHandler(this.OnOneHourTimer);
         }
 
         protected override void OnStart(string[] args)
         {
             // Change parameter to get any exchange rate for EUR.
             GetLatestValue("PLN");
-
-            // Get value of PLN every hour.
-            Timer timer = new Timer();
-            timer.Interval = 3600000;
-            timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
-            timer.Start();
+            
+            oneHourTimer.Start();
         }
-
-        protected override void OnStop()
-        {
-        }
-        public void OnTimer(object sender, ElapsedEventArgs args)
+        public void OnOneHourTimer(object sender, ElapsedEventArgs args)
         {
             GetLatestValue("PLN");
         }
