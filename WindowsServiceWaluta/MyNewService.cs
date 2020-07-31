@@ -46,9 +46,9 @@ namespace WindowsServiceWaluta
         {
             GetLatestValue("PLN");
         }
-        public void GetLatestValue(string currency)
+        // Returns url of single currency.
+        public string GetCurrencyURL(string currency)
         {
-            float value;
             string urlBase = "https://api.exchangeratesapi.io/latest?symbols=";
 
             // Get only 3 first characters of string. e.g PLN,CZK returns only PLN.
@@ -56,18 +56,21 @@ namespace WindowsServiceWaluta
             {
                 currency = currency.Substring(0, 3);
             }
-            string urlLatest = urlBase + currency;
-
+            return urlBase + currency;
+        }
+        public void GetLatestValue(string currency)
+        {
             using (WebClient wc = new WebClient())
             {
                 try
                 {
-                    var json = wc.DownloadString(urlLatest);
+                    var url = GetCurrencyURL(currency);
+                    var json = wc.DownloadString(url);
 
                     var tmp = JObject.Parse(json);
                     //rates -> PLN -> Value
                     // Get first(only) value.
-                    value = (float)tmp.Properties().First().First().FirstOrDefault();
+                    var value = tmp.Properties().First().First().FirstOrDefault();
 
                     eventLog1.WriteEntry("EUR/" + currency + " rate: " + value.ToString(), EventLogEntryType.Information, eventID++);
                 }
